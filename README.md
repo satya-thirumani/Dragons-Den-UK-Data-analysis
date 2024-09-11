@@ -1,12 +1,11 @@
-Dragons' Den dataset of UK/British TV programm, business reality television series. Currently, the data set has information from United Kingdom Dragons' Den season 1 to season 10. 
-
-The dataset has 53 fields/columns and 120+ records.
+Dragons' Den dataset of UK/British TV programm, business reality television series.
+Currently, the data set has information from United Kingdom Dragons' Den series 1 to series 21. The dataset has 56 fields and 1438 rows.
 
 - Season Number - Season number
 
-- Startup Name - Company name or product name, at the time of pitch
-
 - Episode Number - Episode number within the season
+
+- Startup Name - Company name or product name, at the time of pitch
 
 - Pitch Number - Overall pitch number
 
@@ -22,19 +21,21 @@ The dataset has 53 fields/columns and 120+ records.
 
 - Company Website - Website of startup/company
 
+- UK Viewership - Viewership in UK, TRP rating, in millions
+
+- Channel Name - Channel or network name
+
 - Pitchers Gender - Gender of pitchers
 
-- Pitchers Average Age - UK city of pitchers or place where company head office exists
+- Pitchers Average Age - Average age of all pitchers, <30 young, 30-50 middle, >50 old
 
-- Pitchers City - UK state or country of pitchers, two letter shortcut of UK state where company head office exists
+- Pitchers City - UK city of pitchers or place where company head office exists
 
-- Pitchers State - Average age of all pitchers, <30 young, 30-50 middle, >50 old
+- Pitchers State - UK state or country of pitchers where company head office exists
 
 - Entrepreneur Names - Pitcher names
 
 - Multiple Entrepreneurs - Multiple entrepreneurs are present ?  1-yes, 0-no
-
-- UK Viewership - Viewership in US, TRP rating, in millions
 
 - Original Ask Amount - Original Ask Amount, in GBP
 
@@ -42,7 +43,11 @@ The dataset has 53 fields/columns and 120+ records.
 
 - Valuation Requested - Valuation Requested, in GBP
 
-- Got Deal - Got the deal or not,  1-yes, 0-no
+- Received Offer - Received offer or not, 1-received, 0-not received
+
+- Accepted Offer - Accepted offer or not, 1-accepted, 0-rejected
+
+- Deal Successful - Deal Successful/materialized or not,  1-yes, 0-no
 
 - Total Deal Amount - Total Deal Amount, in GBP, including debt/loan amount
 
@@ -92,18 +97,18 @@ The dataset has 53 fields/columns and 120+ records.
 
 - Guest Investment Equity - Equity received by Guests
 
-- Guest Name - Name of Guest Dragon(s), if invested in deal
+- Invested Guest Name - Name of Guest Dragon(s), if invested in deal
 
-- Peter Jones Present - Whether Barbara Corcoran present in episode or not
+- Peter Jones Present - Whether Peter Jones present in episode or not
 
-- Deborah Meaden Present - Whether Mark Cuban present in episode or not
+- Deborah Meaden Present - Whether Deborah Meaden present in episode or not
 
-- Duncan Bannatyne Present - Whether Lori Greiner present in episode or not
+- Duncan Bannatyne Present - Whether Duncan Bannatyne present in episode or not
 
-- Theo Paphitis Present - Whether Robert Herjavec present in episode or not
+- Theo Paphitis Present - Whether Theo Paphitis present in episode or not
 
-- Touker Suleyman Present - Whether Daymond John present in episode or not
+- Touker Suleyman Present - Whether Touker Suleyman present in episode or not
 
-- Sara Davies Present - Whether Kevin O Leary present in episode or not
+- Sara Davies Present - Whether Sara Davies present in episode or not
 
 - Guest Present - Whether Guest(s) present in episode or not
